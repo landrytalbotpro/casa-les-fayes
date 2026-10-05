@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es" data-lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Casa Les Fayes · Casa de aldea en Llanes, Asturias</title>
+    <meta name="description" content="Casa de aldea para 6 personas entre Llanes y los Picos de Europa. Reserva directa, sin comisiones. Se habla francés.">
+    <link rel="canonical" href="https://landrytalbotpro.github.io/casa-les-fayes/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Casa Les Fayes · Casa de aldea en Llanes">
+    <meta property="og:description" content="Casa de aldea para 6 personas entre el mar y la montaña. Reserva directa, sin comisiones.">
+    <meta property="og:url" content="https://landrytalbotpro.github.io/casa-les-fayes/">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&h=630&q=80">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:locale:alternate" content="fr_FR">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "Casa Les Fayes (demo)",
+      "url": "https://landrytalbotpro.github.io/casa-les-fayes/",
+      "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=80",
+      "telephone": "+34675153535",
+      "address": { "@type": "PostalAddress", "addressLocality": "Llanes", "addressRegion": "Asturias", "addressCountry": "ES" },
+      "numberOfRooms": 3,
+      "petsAllowed": true,
+      "availableLanguage": ["es", "fr"]
+    }
+    </script>
+    <script>
+    // Langue : ?lang=fr dans l'URL, sinon dernier choix, sinon langue du navigateur
+    (function () {
+        var lang = 'es';
+        try {
+            var q = new URLSearchParams(location.search).get('lang');
+            var saved = localStorage.getItem('lesfayes-lang');
+            if (q === 'fr' || q === 'es') lang = q;
+            else if (saved === 'fr' || saved === 'es') lang = saved;
+            else if ((navigator.language || '').toLowerCase().indexOf('fr') === 0) lang = 'fr';
+        } catch (e) {}
+        document.documentElement.setAttribute('data-lang', lang);
+        document.documentElement.setAttribute('lang', lang);
+    })();
+    </script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="logo">Casa Les Fayes<small>Llanes · Asturias</small></a>
+        <div class="nav-links" id="mainNav">
+            <a href="#casa"><span lang="es">La casa</span><span lang="fr">La maison</span></a>
+            <a href="#galeria"><span lang="es">Fotos</span><span lang="fr">Photos</span></a>
+            <a href="#tarifas"><span lang="es">Tarifas</span><span lang="fr">Tarifs</span></a>
+            <a href="#llegar"><span lang="es">Cómo llegar</span><span lang="fr">Accès</span></a>
+            <a href="#faq">FAQ</a>
+        </div>
+        <div class="nav-actions">
+            <div class="lang-switch" role="group" aria-label="Idioma / Langue">
+                <button type="button" data-set-lang="es">ES</button>
+                <button type="button" data-set-lang="fr">FR</button>
+            </div>
+            <a href="#reservar" class="btn btn-terra nav-cta"><span lang="es">Reservar</span><span lang="fr">Réserver</span></a>
+            <button class="burger-btn" id="burgerBtn" type="button" aria-label="Menú" aria-expanded="false" aria-controls="mainNav">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="demo-badge">Demo · Nuvora Studio</div>
+
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <p class="kicker" style="color:#F1C9B8"><span lang="es">Casa de aldea · 6 personas</span><span lang="fr">Maison de village · 6 personnes</span></p>
+            <h1><span lang="es">Entre el mar y los Picos, a tu ritmo</span><span lang="fr">Entre la mer et les Picos, à votre rythme</span></h1>
+            <p><span lang="es">Una casa de piedra restaurada a 10 minutos de las playas de Llanes. Reserva directa con nosotros, sin comisiones.</span><span lang="fr">Une maison en pierre restaurée à 10 minutes des plages de Llanes. Réservez directement chez nous, sans commission. On parle français.</span></p>
+            <div class="hero-ctas">
+                <a href="#reservar" class="btn btn-terra"><span lang="es">Ver disponibilidad</span><span lang="fr">Voir les disponibilités</span></a>
+                <a href="#galeria" class="btn btn-ghost"><span lang="es">Ver la casa</span><span lang="fr">Voir la maison</span></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="infobar">
+        <div><strong>6</strong><span lang="es">personas · 3 habitaciones</span><span lang="fr">personnes · 3 chambres</span></div>
+        <div><strong>10 min</strong><span lang="es">de la playa</span><span lang="fr">de la plage</span></div>
+        <div><strong>4,9 ★</strong><span lang="es">en reseñas de Google</span><span lang="fr">sur les avis Google</span></div>
+        <div><strong>🐾</strong><span lang="es">Mascotas bienvenidas</span><span lang="fr">Animaux bienvenus</span></div>
+    </section>
+
+    <section class="casa" id="casa">
+        <div class="wrap">
+            <img src="https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=800&h=1000&q=80" alt="Casa de piedra rodeada de árboles" loading="lazy">
+            <div>
+                <p class="kicker"><span lang="es">La casa</span><span lang="fr">La maison</span></p>
+                <h2><span lang="es">Piedra, madera y silencio</span><span lang="fr">Pierre, bois et silence</span></h2>
+                <p><span lang="es">Les Fayes es una antigua casa de labranza rehabilitada respetando la piedra y las vigas originales. Tres habitaciones, dos baños, cocina completa y un salón con chimenea para las noches de otoño.</span><span lang="fr">Les Fayes est une ancienne ferme rénovée en gardant la pierre et les poutres d'origine. Trois chambres, deux salles de bain, une cuisine équipée et un salon avec cheminée pour les soirées d'automne.</span></p>
+                <p><span lang="es">Fuera, un prado vallado con barbacoa y vistas a la sierra del Cuera. Se alquila completa: la casa es solo para vosotros.</span><span lang="fr">Dehors, un pré clôturé avec barbecue et vue sur la sierra del Cuera. La maison se loue en entier : elle est rien que pour vous.</span></p>
+                <a href="#reservar" class="btn btn-green" style="margin-top:10px"><span lang="es">Consultar fechas</span><span lang="fr">Demander des dates</span></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="galeria" id="galeria">
+        <div class="wrap">
+            <p class="kicker"><span lang="es">Galería</span><span lang="fr">Galerie</span></p>
+            <h2><span lang="es">Así es por dentro (y por fuera)</span><span lang="fr">À l'intérieur (et à l'extérieur)</span></h2>
+            <div class="galeria-grid">
+                <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1000&h=800&q=80" alt="Prado verde junto a la casa" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=600&h=450&q=80" alt="Salón" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=600&h=450&q=80" alt="Habitación doble" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=600&h=450&q=80" alt="Cocina equipada" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&h=450&q=80" alt="Rincón de lectura" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&h=450&q=80" alt="Montañas cercanas" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <section class="equipamiento">
+        <div class="wrap">
+            <p class="kicker"><span lang="es">Equipamiento</span><span lang="fr">Équipements</span></p>
+            <h2><span lang="es">Todo lo que necesitas</span><span lang="fr">Tout ce qu'il faut</span></h2>
+            <div class="equip-grid">
+                <div class="equip"><span class="ico">📶</span>Wifi <span lang="es">fibra</span><span lang="fr">fibre</span></div>
+                <div class="equip"><span class="ico">🔥</span><span lang="es">Chimenea y calefacción</span><span lang="fr">Cheminée et chauffage</span></div>
+                <div class="equip"><span class="ico">🍳</span><span lang="es">Cocina completa</span><span lang="fr">Cuisine équipée</span></div>
+                <div class="equip"><span class="ico">🧺</span><span lang="es">Lavadora</span><span lang="fr">Lave-linge</span></div>
+                <div class="equip"><span class="ico">🚗</span><span lang="es">Parking privado</span><span lang="fr">Parking privé</span></div>
+                <div class="equip"><span class="ico">🌳</span><span lang="es">Jardín y barbacoa</span><span lang="fr">Jardin et barbecue</span></div>
+                <div class="equip"><span class="ico">👶</span><span lang="es">Cuna y trona</span><span lang="fr">Lit bébé et chaise haute</span></div>
+                <div class="equip"><span class="ico">🐾</span><span lang="es">Mascotas admitidas</span><span lang="fr">Animaux acceptés</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tarifas" id="tarifas">
+        <div class="wrap">
+            <p class="kicker"><span lang="es">Tarifas</span><span lang="fr">Tarifs</span></p>
+            <h2><span lang="es">Precio por noche, casa completa</span><span lang="fr">Prix par nuit, maison entière</span></h2>
+            <div class="tarifas-grid">
+                <div class="tarifa">
+                    <h3><span lang="es">Temporada baja</span><span lang="fr">Basse saison</span></h3>
+                    <p class="when"><span lang="es">Oct – Mar (excepto festivos)</span><span lang="fr">Oct – mars (hors jours fériés)</span></p>
+                    <p class="precio">120 € <small>/ <span lang="es">noche</span><span lang="fr">nuit</span></small></p>
+                </div>
+                <div class="tarifa">
+                    <h3><span lang="es">Temporada media</span><span lang="fr">Moyenne saison</span></h3>
+                    <p class="when"><span lang="es">Abr – Jun, Sep, puentes</span><span lang="fr">Avr – juin, sept, ponts</span></p>
+                    <p class="precio">150 € <small>/ <span lang="es">noche</span><span lang="fr">nuit</span></small></p>
+                </div>
+                <div class="tarifa accent">
+                    <h3><span lang="es">Temporada alta</span><span lang="fr">Haute saison</span></h3>
+                    <p class="when"><span lang="es">Jul – Ago, Semana Santa</span><span lang="fr">Juil – août, Pâques</span></p>
+                    <p class="precio">190 € <small>/ <span lang="es">noche</span><span lang="fr">nuit</span></small></p>
+                </div>
+            </div>
+            <p class="nota"><span lang="es">Estancia mínima: 2 noches (7 en agosto). Reservando directamente te ahorras la comisión de las plataformas.</span><span lang="fr">Séjour minimum : 2 nuits (7 en août). En réservant en direct, vous évitez la commission des plateformes.</span></p>
+        </div>
+    </section>
+
+    <section class="reserva" id="reservar">
+        <div class="wrap">
+            <div>
+                <p class="kicker"><span lang="es">Reserva directa</span><span lang="fr">Réservation directe</span></p>
+                <h2><span lang="es">Dinos tus fechas y te contestamos hoy</span><span lang="fr">Donnez-nous vos dates, on vous répond aujourd'hui</span></h2>
+                <ul>
+                    <li><span lang="es">✓ Sin comisiones de plataforma</span><span lang="fr">✓ Sans commission de plateforme</span></li>
+                    <li><span lang="es">✓ Respuesta en menos de 24 h</span><span lang="fr">✓ Réponse en moins de 24 h</span></li>
+                    <li><span lang="es">✓ Hablamos español y francés</span><span lang="fr">✓ On parle français et espagnol</span></li>
+                    <li><span lang="es">✓ Señal del 30 %, resto a la llegada</span><span lang="fr">✓ Acompte de 30 %, le reste à l'arrivée</span></li>
+                </ul>
+            </div>
+            <form class="reserva-form" id="reservaForm">
+                <div class="form-row">
+                    <label><span lang="es">Llegada</span><span lang="fr">Arrivée</span><input type="date" id="fLlegada" required></label>
+                    <label><span lang="es">Salida</span><span lang="fr">Départ</span><input type="date" id="fSalida" required></label>
+                </div>
+                <div class="form-row">
+                    <label><span lang="es">Personas</span><span lang="fr">Personnes</span>
+                        <select id="fPersonas">
+                            <option>1</option><option>2</option><option>3</option><option selected>4</option><option>5</option><option>6</option>
+                        </select>
+                    </label>
+                    <label><span lang="es">Mascota</span><span lang="fr">Animal</span>
+                        <select id="fMascota">
+                            <option value="no">No</option>
+                            <option value="si">Sí / Oui</option>
+                        </select>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-terra"><span lang="es">Consultar por WhatsApp</span><span lang="fr">Demander par WhatsApp</span></button>
+                <p class="alt-links"><span lang="es">¿Prefieres una plataforma? También estamos en</span><span lang="fr">Vous préférez une plateforme ? On est aussi sur</span> <a href="https://www.booking.com" target="_blank" rel="noopener">Booking</a> · <a href="https://www.escapadarural.com" target="_blank" rel="noopener">Escapada Rural</a></p>
+            </form>
+        </div>
+    </section>
+
+    <section class="llegar" id="llegar">
+        <div class="wrap">
+            <div>
+                <p class="kicker"><span lang="es">Cómo llegar</span><span lang="fr">Comment venir</span></p>
+                <h2><span lang="es">En el oriente de Asturias</span><span lang="fr">Dans l'est des Asturies</span></h2>
+                <ul class="distancias">
+                    <li><span lang="es">Playas de Llanes</span><span lang="fr">Plages de Llanes</span><span>10 min</span></li>
+                    <li><span>Ribadesella</span><span>25 min</span></li>
+                    <li><span lang="es">Cangas de Onís y Covadonga</span><span lang="fr">Cangas de Onís et Covadonga</span><span>45 min</span></li>
+                    <li><span lang="es">Aeropuerto de Asturias</span><span lang="fr">Aéroport des Asturies</span><span>1 h 20</span></li>
+                    <li><span lang="es">Ferry de Santander</span><span lang="fr">Ferry de Santander</span><span>1 h 15</span></li>
+                </ul>
+                <a href="https://www.google.com/maps/search/?api=1&query=Llanes%2C+Asturias" class="btn btn-green" target="_blank" rel="noopener"><span lang="es">Abrir en Google Maps</span><span lang="fr">Ouvrir dans Google Maps</span></a>
+            </div>
+            <iframe class="map" title="Mapa Llanes" loading="lazy" src="https://www.google.com/maps?q=Llanes,+Asturias&z=11&output=embed"></iframe>
+        </div>
+    </section>
+
+    <section class="opiniones">
+        <div class="wrap">
+            <p class="kicker"><span lang="es">Opiniones</span><span lang="fr">Avis</span></p>
+            <h2><span lang="es">Lo que dicen nuestros huéspedes</span><span lang="fr">Ce qu'en disent nos hôtes</span></h2>
+            <div class="opiniones-grid">
+                <div class="op"><span class="stars">★★★★★</span><p>"Casa preciosa y muy bien equipada. Volveremos en primavera."</p><span class="autor">— Marta, Madrid</span></div>
+                <div class="op"><span class="stars">★★★★★</span><p>"Superbe maison, calme absolu, et un accueil en français, ça change tout !"</p><span class="autor">— Julien, Bordeaux</span></div>
+                <div class="op"><span class="stars">★★★★★</span><p>"Perfecta con perro y niños. La chimenea, lo mejor."</p><span class="autor">— Iñaki, Bilbao</span></div>
+            </div>
+            <p class="nota"><span lang="es">Opiniones de ejemplo (alojamiento ficticio).</span><span lang="fr">Avis d'exemple (logement fictif).</span></p>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <div class="wrap">
+            <p class="kicker">FAQ</p>
+            <h2><span lang="es">Preguntas frecuentes</span><span lang="fr">Questions fréquentes</span></h2>
+            <details>
+                <summary><span lang="es">¿A qué hora es la entrada y la salida?</span><span lang="fr">À quelle heure sont l'arrivée et le départ ?</span></summary>
+                <p><span lang="es">Entrada a partir de las 16:00, salida antes de las 12:00. Si necesitas otro horario, escríbenos.</span><span lang="fr">Arrivée à partir de 16 h, départ avant 12 h. Si vous avez besoin d'un autre horaire, écrivez-nous.</span></p>
+            </details>
+            <details>
+                <summary><span lang="es">¿Se admiten mascotas?</span><span lang="fr">Les animaux sont-ils acceptés ?</span></summary>
+                <p><span lang="es">Sí, perros bienvenidos. El prado está vallado.</span><span lang="fr">Oui, les chiens sont les bienvenus. Le pré est clôturé.</span></p>
+            </details>
+            <details>
+                <summary><span lang="es">¿Cómo se paga la reserva?</span><span lang="fr">Comment se paie la réservation ?</span></summary>
+                <p><span lang="es">Una señal del 30 % por transferencia o Bizum para confirmar, y el resto a la llegada.</span><span lang="fr">Un acompte de 30 % par virement pour confirmer, et le reste à l'arrivée.</span></p>
+            </details>
+            <details>
+                <summary><span lang="es">¿Hay supermercado cerca?</span><span lang="fr">Y a-t-il un supermarché à proximité ?</span></summary>
+                <p><span lang="es">Sí, en Llanes, a 10 minutos en coche.</span><span lang="fr">Oui, à Llanes, à 10 minutes en voiture.</span></p>
+            </details>
+        </div>
+    </section>
+
+    <section class="cta-final">
+        <h2><span lang="es">¿Te escapas a Asturias?</span><span lang="fr">Une escapade dans les Asturies ?</span></h2>
+        <p><span lang="es">Escríbenos y te decimos en el día si tenemos hueco.</span><span lang="fr">Écrivez-nous, on vous dit dans la journée si c'est libre.</span></p>
+        <a href="#reservar" class="btn btn-terra"><span lang="es">Ver disponibilidad</span><span lang="fr">Voir les disponibilités</span></a>
+    </section>
+
+    <footer class="footer">
+        <span class="logo">Casa Les Fayes</span>
+        <p><span lang="es">Llanes, Asturias · Registro VUT: VV-0000-AS (ejemplo)</span><span lang="fr">Llanes, Asturies · N° d'enregistrement : VV-0000-AS (exemple)</span></p>
+        <p>© 2026 · <a href="privacidad.html"><span lang="es">Privacidad</span><span lang="fr">Confidentialité</span></a></p>
+        <p style="margin-top:14px;opacity:.6;font-size:.8rem"><span lang="es">Web de demostración creada por</span><span lang="fr">Site de démonstration réalisé par</span> <a href="https://nuvorastudio.es" target="_blank" rel="noopener">Nuvora Studio</a></p>
+    </footer>
+
+    <div id="nuvora-sticky-cta-bar">
+        <a href="#" id="stickyWa" target="_blank" rel="noopener">💬 <span lang="es">WhatsApp · Respuesta en 24 h</span><span lang="fr">WhatsApp · Réponse en 24 h</span></a>
+    </div>
+
+    <script>
+    (function () {
+        var WA = '34675153535';
+        var root = document.documentElement;
+
+        function currentLang() { return root.getAttribute('data-lang') === 'fr' ? 'fr' : 'es'; }
+
+        function waLink(text) { return 'https://wa.me/' + WA + '?text=' + encodeURIComponent(text); }
+
+        function updateSticky() {
+            var msg = currentLang() === 'fr'
+                ? "Bonjour ! J'ai vu Casa Les Fayes et j'aimerais avoir des infos sur les disponibilités."
+                : '¡Hola! He visto Casa Les Fayes y me gustaría saber la disponibilidad.';
+            document.getElementById('stickyWa').href = waLink(msg);
+        }
+
+        function setLang(lang) {
+            root.setAttribute('data-lang', lang);
+            root.setAttribute('lang', lang);
+            try { localStorage.setItem('lesfayes-lang', lang); } catch (e) {}
+            document.querySelectorAll('[data-set-lang]').forEach(function (b) {
+                b.classList.toggle('active', b.getAttribute('data-set-lang') === lang);
+            });
+            updateSticky();
+        }
+
+        document.querySelectorAll('[data-set-lang]').forEach(function (b) {
+            b.addEventListener('click', function () { setLang(b.getAttribute('data-set-lang')); });
+        });
+        setLang(currentLang());
+
+        // Menu burger : ouverture / fermeture
+        var btn = document.getElementById('burgerBtn');
+        var nav = document.getElementById('mainNav');
+        function closeMenu() {
+            nav.classList.remove('open');
+            btn.classList.remove('open');
+            btn.setAttribute('aria-expanded', 'false');
+        }
+        btn.addEventListener('click', function () {
+            var isOpen = nav.classList.toggle('open');
+            btn.classList.toggle('open', isOpen);
+            btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        });
+        nav.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', closeMenu); });
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeMenu(); });
+
+        // Formulaire → message WhatsApp pré-rempli
+        var today = new Date().toISOString().slice(0, 10);
+        document.getElementById('fLlegada').min = today;
+        document.getElementById('fSalida').min = today;
+        document.getElementById('reservaForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            var ll = document.getElementById('fLlegada').value;
+            var sa = document.getElementById('fSalida').value;
+            var pe = document.getElementById('fPersonas').value;
+            var pet = document.getElementById('fMascota').value === 'si';
+            if (sa <= ll) {
+                alert(currentLang() === 'fr' ? 'La date de départ doit être après la date d\'arrivée.' : 'La fecha de salida debe ser posterior a la de llegada.');
+                return;
+            }
+            var msg = currentLang() === 'fr'
+                ? 'Bonjour ! Je voudrais réserver Casa Les Fayes du ' + ll + ' au ' + sa + ' pour ' + pe + ' personne(s)' + (pet ? ', avec un animal' : '') + '. Est-ce disponible ?'
+                : '¡Hola! Me gustaría reservar Casa Les Fayes del ' + ll + ' al ' + sa + ' para ' + pe + ' persona(s)' + (pet ? ', con mascota' : '') + '. ¿Está disponible?';
+            window.open(waLink(msg), '_blank', 'noopener');
+        });
+
+        // Image qui ne charge pas → on la masque proprement
+        document.querySelectorAll('img').forEach(function (img) {
+            img.addEventListener('error', function () { img.style.visibility = 'hidden'; });
+        });
+    })();
+    </script>
+</body>
+</html>
